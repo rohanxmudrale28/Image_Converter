@@ -15,7 +15,7 @@ def convert_and_resize(image_file, output_format, width=None, height=None, quali
         output_img.seek(0)
         return output_img
 
-st.title("Image Converter and Compressor")
+st.title("All in One Image Converter & Compressor by Rohan Mudrale — Made for Everyone! Convert & Compress Your Images Easily in One Place Without Searching Elsewhere")
 
 uploaded_file = st.file_uploader("Upload an Image", type=["png", "jpg", "jpeg", "jfif", "bmp"])
 
